@@ -1,0 +1,168 @@
+:root {
+    --background-color: #1e1e1e;
+    --textarea-background-color: #121212;
+    --font-size: 16px;
+    --impact-gray: #ece5e599;
+    --impact-light-gray: #444444;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.body {
+    overflow-y: hidden;
+}
+
+.topbar {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+@media only screen and (max-width: 991px) {
+    .toolbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+}
+
+.editor {
+    margin-right: 0;
+    transition: all 0.3s ease-out;
+    background-color: var(--textarea-background-color);
+}
+
+.nav-button {
+    float: right !important;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    padding: 3px 5px;
+    width: 28px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.editor {
+    background-color: var(--textarea-background-color);
+    color: #ece5e5cc;
+}
+
+.topbar {
+    background-color: var(--background-color) !important;
+}
+
+.toolbar {
+    filter: invert(1) !important;
+}
+
+.navbar {
+    filter: invert(1) !important;
+}
+
+.svg {
+    fill: white;
+}
+
+.ql-toolbar.ql-snow {
+    border: 0px !important;
+}
+
+.ql-container.ql-snow {
+    border: 0px !important;
+}
+
+.ql-editor {
+    font-size: var(--font-size);
+}
+
+.ql-snow.ql-toolbar button svg,
+.ql-snow .ql-toolbar button svg {
+    color: var(--impact-gray) !important;
+    height: 100% !important;
+}
+
+.ql-snow .ql-tooltip {
+    background-color: var(--background-color) !important;
+    border: 0px solid var(--background-color) !important;
+    box-shadow: 0px 0px 5px var(--background-color) !important;
+}
+
+.ql-snow .ql-tooltip input[type=text] {
+    background-color: var(--textarea-background-color) !important;
+    border: none !important;
+}
+
+.editor .ql-tooltip {
+    background-color: var(--background-color) !important;
+    box-shadow: 0px 0px 5px var(--background-color) !important;
+    color: var(--impact-gray) !important;
+}
+
+.editor .ql-tooltip input[type=text] {
+    background-color: var(--textarea-background-color) !important;
+    color: var(--impact-gray);
+    border: none !important;
+}
+
+.editor .ql-editor.ql-blank::before {
+    color: var(--impact-gray) !important;
+}
+
+footer {
+    width: 100%;
+    position: absolute; /* Place the footer relative to the page */
+    bottom: 0; /* Ensure it stays at the bottom */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Optional background for visibility */
+    color: white;
+    padding: -15px 20px; /* Add padding for spacing */
+    font-size: 1rem;
+}
+
+footer a {
+    color: lightgreen; /* Footer link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #5e6c9c; /* Change link color on hover */
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: var(--impact-gray);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: var(--impact-gray);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--impact-light-gray);
+    border-radius: 10px;
+}
