@@ -70,8 +70,8 @@ function printConsoleArt() {
   ██╔╝ ██╗██║  ██╗   ██║   ██║ ╚████║╚██████╔╝   ██║   ███████╗
   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═══╝ ╚═════╝    ╚═╝   ╚══════╝
 
-    Github: https://github.com/xkyrage
-    Version: 1
+    https://github.com/xkyrage  
+   | Copyright Tegar Ibrahim 2025 |
     `;
   console.log(consoleStr);
 }
