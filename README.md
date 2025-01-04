@@ -34,6 +34,10 @@ Click this button below to start using Xkynote. I hope this tools providing an i
 
 ![image](https://github.com/user-attachments/assets/626c2f93-5413-4acd-96fc-7ea4d4c83955)
 
+> Adding Image into the notes
+
+![image](https://github.com/user-attachments/assets/f598e32e-ffdf-4ade-b02d-43710afc0f99)
+
 Thank You for using xkynote dont forget the ![image](https://github.com/user-attachments/assets/640907bf-7a7a-4c70-95dd-1216e8e17a4e) , cheers!!
 
 
