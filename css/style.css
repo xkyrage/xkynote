@@ -27,15 +27,6 @@ body {
     background-color: var(--background-color);
 }
 
-@media only screen and (max-width: 991px) {
-    .toolbar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        z-index: 9999;
-    }
-}
 
 .editor {
     margin-right: 0;
