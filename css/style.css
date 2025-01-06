@@ -28,18 +28,9 @@ body {
 }
 
 @media only screen and (max-width: 991px) {
-    .toolbar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        z-index: 9999;
-    }
-}
 
 .editor {
-    margin-right: 0;
-    transition: all 0.3s ease-out;
+    margin-top: 90px; /* Adjust this value to create space for the navbar and toolbar */
     background-color: var(--textarea-background-color);
 }
 
