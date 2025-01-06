@@ -1,5 +1,5 @@
 var default_text =
-  "Enter or paste your text here. To download and save it, click on the Download button.";
+  "Insert or paste your text here. To save it, click the Download button located in the upper right corner.";
 
 function clearText() {
   quill.root.innerHTML = "";
