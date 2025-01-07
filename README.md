@@ -1,6 +1,6 @@
 # Xkynote - Simple Online Notepad
 
-> Xkynote is a feature-packed online notepad designed to simplify your note-taking and editing experience. It offers the following features:
+> Xkynote is a feature-packed online notepad designed to simplify your note-taking and editing experience based on quill. It offers the following features:
 
 - Upload and Edit Notes: Upload existing notes or text files to easily edit and enhance them.
 - Download Notes Locally: Save your edited notes directly to your local device for offline access.
